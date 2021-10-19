@@ -1,3 +1,6 @@
+# What is this thing
+This is a WFTEngine-derived automatic generator of RPGBot-optimized parties of 5e D&D characters. It's inspired largely by the WTF is my D&D character engine, and the desire to rapidly generate a party of four 5e characters balanced for dungeon-delving.
+
 # WTF Engine
 
 Inspired by [WhatTheFuckShouldIMakeForDinner.com](http://whatthefuckshouldimakefordinner.com/), in 2011 I made [WhatTheFuckIsMyMashup.com](http://whatthefuckismymashup.com/) and released this simple tool, the [WTFEngine](https://github.com/soulwire/WTFEngine/), for generating similar websites.
