@@ -10,62 +10,151 @@
    ],
    
    "template": [
-      "a @cleric, a @fighter, a @rogue, and a @wizard",
-      "a stack of cats in a trenchcoat"
+      "@cleric, @fighter, @rogue, and @wizard",
+      "@fighter, @rogue, and @wizard",
+      "@bard, @cleric, @fighter, @rogue, and @wizard",
+      "@barbarian, @bard, @cleric, @fighter, @rogue, and @wizard"
+   ],
+   
+   "chaotic": [
+      "@barbarian",
+      "@ranger",
+      "@rogue",
+      "@wildsorceror",
+      "@feywarlock"
+   ],
+   
+   "bard": [
+      "a Custom Lineage Bard with a @bardcharismafeat feat",
+      "an Eladrin Bard",
+      "a Standard Half-Elf Bard",
+      "a Variant Human Bard with the @bardfeat Feat",
+      "a Tabaxi Bard",
+      "a Dispater Tiefling Bard",
+      "a Glasya Tiefling Bard",
+      "a Winged Tiefling Bard with the Devil's Tongue",
+      "a Triton Bard",
+      "a Verdan Bard",
+      "a Yuan-Ti Pureblood Bard",
+      "a Changeling Bard",
+      "an Elf Bard with the Dragonmark of Shadow",
+      "a Halfling Bard with the Dragonmark of Hospitality",
+      "a Human Bard with the Dragonmark of Passage",
+      "a Satyr Bard"
+   ],
+   
+   "bardcharismafeat" :[
+      "Inspiring Leader",
+   ],
+   
+   "bardfeat" : [
+      "@bardcharismafeat",
+      "Metamagic Adept",
+      "Magic Initiate"
+   ],
+   
+   "bardbackground" :[
+      "has served in at least one royal court",
+      "has a criminal past (and maybe a criminal present)",
+      "serves as the agent of a major faction",
+      "makes a living as an urban bounty hunter",
+      "grew up as an urchin on the mean streets of a city"
+   ],
+   
+   "barbarian": [
+      "a Bugbear Barbarian",
+      "a Custom Lineage Barbarian with +2 Strength and the @barbarianfeat Feat",
+      "a Mountain Dwarf Barbarian",
+      "an Earth Genasi Barbarian",
+      "a Githyanki Barbarian",
+      "a Goliath Barbarian",
+      "a Half-Orc Barbarian",
+      "a Variant Human Barbarian with the @barbarianfeat Feat",
+      "a Tortle Barbarian",
+      "a Beasthide Shifter Barbarian",
+      "a Longtooth Shifter Barbarian",
+      "a Warforged Barbarian",
+      "a Centaur Barbarian",
+      "a Minotaur Barbarian",
+      "a Simic Hybrid Barbarian",
+      "a Leonin Barbarian",
+      "a Ravenite Dragonborn Barbarian"
+   ],
+   
+   
+   "barbarianfeat" : [
+      "Great Weapon Master",
+      "Sentinel"
+   ],
+   
+   "barbarianbackground" : [
+      "has made a name for themselves as a hero of the people",
+      "@soldierbackground"
+   ],
+   
+   "soldierbackground" :[
+      "has earned a commission as an officer after long service as a soldier",
+      "serves as a scout for a unit of soldiers",
+      "serves as a soldier with the infantry",
+      "serves as a soldier with the cavalry",
+      "serves as a healer for a unit of soldiers",
+      "serves as the quartermaster for a unit of soldiers",
+      "serves as the standard0bearer for a unit of soldiers",
+      "serves in the support staff (cook, blacksmith, or the like) for a unit of soldiers"
    ],
    
    "cleric":[
-      "lightly-armored Aarakocra Cleric of the Light Domain, who @clericbackgrounds, wielding a mace and shield, and wearing leather armor",
-      "Protector Aasimar Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
-      "Hill Dwarf Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
-      "High Half-Elf Cleric of the @clericdomain Domain, who fights with a Booming Blade, wielding a mace and shield, and wearing chain mail",
-      "Standard Half-Elf Cleric Face of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
-      "Warforged Cleric of the @heavydivinedomain Domain, wielding a mace and shield, and wearing chain mail",
-      "Half-Elf Cleric of the @clericdomain Domain, with the Dragonmark of Detection, wielding a mace and shield, and wearing chain mail",
-      "Half-Orc Cleric of the @clericdomain Domain, with the Dragonmark of Finding, wielding a mace and shield, and wearing chain mail",
-      "Simic Hybrid Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
-      "Lotusden Halfling Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail"
+      "a lightly-armored Aarakocra Cleric of the Light Domain, who @clericbackgrounds, wielding a mace and shield, and wearing leather armor",
+      "a Protector Aasimar Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
+      "a Hill Dwarf Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
+      "a High Half-Elf Cleric of the @clericdomain Domain, who fights with a Booming Blade, wielding a mace and shield, and wearing chain mail",
+      "a Standard Half-Elf Cleric Face of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
+      "a Warforged Cleric of the @heavydivinedomain Domain, wielding a mace and shield, and wearing chain mail",
+      "a Half-Elf Cleric of the @clericdomain Domain, with the Dragonmark of Detection, wielding a mace and shield, and wearing chain mail",
+      "a Half-Orc Cleric of the @clericdomain Domain, with the Dragonmark of Finding, wielding a mace and shield, and wearing chain mail",
+      "a Simic Hybrid Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
+      "a Lotusden Halfling Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail"
    ],
    "fighter":[
-      "Aarakocra (ranged fighter, light armor)",
-      "(custom) Mountain Dwarf",
-      "Goliath (melee fighter)",
-      "Variant Human fighter",
-      "Kobold fighter (pack tactics!)",
-      "Feral Winged Tiefling Eldritch Knight",
-      "Beasthide Shifter Fighter",
-      "Longtooth Shifter Fighter",
-      "Warforged Fighter (maybe a grappling defender??)",
-      "Human Fighter with the Dragonmark of Making (Eldritch Knight)",
-      "Human Fighter with the Dragonmark of Passage (Dex-based Eldritch Knight)",
-      "Centaur Fighter",
-      "Minotaur Fighter (melee)",
-      "Simic Hybrid Fighter",
-      "Satyr Fighter (Purple Dragon Knight, or any Dex-based build)",
-      "Ravenite Dragonborn Fighter"
+      "an Aarakocra (ranged fighter, light armor)",
+      "a (custom) Mountain Dwarf",
+      "a Goliath (melee fighter)",
+      "a Variant Human fighter",
+      "a Kobold fighter (pack tactics!)",
+      "a Feral Winged Tiefling Eldritch Knight",
+      "a Beasthide Shifter Fighter",
+      "a Longtooth Shifter Fighter",
+      "a Warforged Fighter (maybe a grappling defender??)",
+      "a Human Fighter with the Dragonmark of Making (Eldritch Knight)",
+      "a Human Fighter with the Dragonmark of Passage (Dex-based Eldritch Knight)",
+      "a Centaur Fighter",
+      "a Minotaur Fighter (melee)",
+      "a Simic Hybrid Fighter",
+      "a Satyr Fighter (Purple Dragon Knight, or any Dex-based build)",
+      "a Ravenite Dragonborn Fighter"
    ],
    
    "rogue":[
-      "Aarakocra archer rogue",
-      "Custom Lineage rogue with +2 Dex, Darkvision, and a Dex-increasing feat",
-      "Eladrin Elf ranged rogue",
-      "High Elf melee rogue with Booming Blade and the Swashbuckler archetype",
-      "High Half-Elf rogue with Booming Blade",
-      "Standard Half-Elf rogue (extra skills; be the Face)",
-      "Variant Human rogue (melee build)",
-      "Kobold rogue with Pack Tactics",
-      "Tabaxi Rogue",
-      "Glasya Tiefling rogue",
-      "Winged Feral Tiefling rogue",
-      "Satyr rogue (but not an arcane trickster)"
+      "an Aarakocra archer rogue",
+      "a Custom Lineage rogue with +2 Dex, Darkvision, and a Dex-increasing feat",
+      "an Eladrin Elf ranged rogue",
+      "a High Elf melee rogue with Booming Blade and the Swashbuckler archetype",
+      "a High Half-Elf rogue with Booming Blade",
+      "a Standard Half-Elf rogue (extra skills; be the Face)",
+      "a Variant Human rogue (melee build)",
+      "a Kobold rogue with Pack Tactics",
+      "a Tabaxi Rogue",
+      "a Glasya Tiefling rogue",
+      "a Winged Feral Tiefling rogue",
+      "a Satyr rogue (but not an arcane trickster)"
    ],
    
    "wizard":[
-      "Custom Lineage wizard (+2 int)",
-      "Githyanki Wizard",
-      "Forest Gnome wizard",
-      "Winged Tiefling wizard",
-      "Vedalken Wizard"
+      "a Custom Lineage wizard (+2 int)",
+      "a Githyanki Wizard",
+      "a Forest Gnome wizard",
+      "a Winged Tiefling wizard",
+      "a Vedalken Wizard"
    ],
    
    "clericbackgrounds":[
