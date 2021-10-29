@@ -1,16 +1,83 @@
 {
-   "heading":
-      ["This party is composed of","This party comprises"],
-   "response":["Already seen one","Give me another one","Don't really care"],
-   "template":["a @cleric, a @fighter, a @rogue, and a @wizard"],
-   "cleric":["lightly-armored Aarakocra Cleric of the Light Domain, who @clericbackgrounds, wielding a mace and shield, and wearing leather armor","Protector Aasimar Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail","Hill Dwarf Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail","High Half-Elf Cleric of the @clericdomain Domain, who fights with a Booming Blade, wielding a mace and shield, and wearing chain mail","Standard Half-Elf Cleric Face of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail","Warforged Cleric of the @heavydivinedomain Domain, wielding a mace and shield, and wearing chain mail","Half-Elf Cleric of the @clericdomain Domain, with the Dragonmark of Detection, wielding a mace and shield, and wearing chain mail","Half-Orc Cleric of the @clericdomain Domain, with the Dragonmark of Finding, wielding a mace and shield, and wearing chain mail","Simic Hybrid Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail","Lotusden Halfling Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail"],
-   "fighter":["Aarakocra (ranged fighter, light armor)","(custom) Mountain Dwarf","Goliath (melee fighter)","Variant Human fighter","Kobold fighter (pack tactics!)","Feral Tiefling","Winged Tiefling Eldritch Knight","Beasthide Shifter","Longtooth Shifter","Warforged Fighter (maybe a grappling defender??)","Human Fighter with the Dragonmark of Making (Eldritch Knight)","Human Fighter with the Dragonmark of Passage (Dex-based Eldritch Knight)","Centaur Fighter","Minotaur Fighter (melee)","Simic Hybrid Fighter","Satyr Fighter (Purple Dragon Knight, or any Dex-based build)","Ravenite Dragonborn Fighter"],
-   "rogue":["Aarakocra archer rogue","Custom Lineage rogue with +2 Dex, Darkvision, and a Dex-increasing feat","Eladrin Elf ranged rogue","High Elf melee rogue with Booming Blade and the Swashbuckler archetype","High Half-Elf with Booming Blade","Standard Half-Elf (extra skills; be the Face)","Variant Human rogue (melee build)","Kobold with Pack Tactics","Tabaxi Rogue","Glasya Tiefling rogue","Winged Feral Tiefling","Satyr rogue (not an arcane trickster)"],
-   "wizard":["Custom Lineage wizard (+2 int)","Githyanki Wizard","Forest Gnome wizard","Winged Tiefling wizard","Vedalken Wizard"],
-   "clericbackgrounds":["grew up as an acolyte","serves as the agent of a faction","has been living as a hermit"],
+   "heading": [
+      "This party is composed of",
+      "This party comprises"
+   ],
+   "response": [
+      "Already seen one",
+      "Give me another one",
+      "Don't really care"
+   ],
+   
+   "template": [
+      "a @cleric, a @fighter, a @rogue, and a @wizard",
+      "a stack of cats in a trenchcoat"
+   ],
+   
+   "cleric":[
+      "lightly-armored Aarakocra Cleric of the Light Domain, who @clericbackgrounds, wielding a mace and shield, and wearing leather armor",
+      "Protector Aasimar Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
+      "Hill Dwarf Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
+      "High Half-Elf Cleric of the @clericdomain Domain, who fights with a Booming Blade, wielding a mace and shield, and wearing chain mail",
+      "Standard Half-Elf Cleric Face of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
+      "Warforged Cleric of the @heavydivinedomain Domain, wielding a mace and shield, and wearing chain mail",
+      "Half-Elf Cleric of the @clericdomain Domain, with the Dragonmark of Detection, wielding a mace and shield, and wearing chain mail",
+      "Half-Orc Cleric of the @clericdomain Domain, with the Dragonmark of Finding, wielding a mace and shield, and wearing chain mail",
+      "Simic Hybrid Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail",
+      "Lotusden Halfling Cleric of the @clericdomain Domain, wielding a mace and shield, and wearing chain mail"
+   ],
+   "fighter":[
+      "Aarakocra (ranged fighter, light armor)",
+      "(custom) Mountain Dwarf",
+      "Goliath (melee fighter)",
+      "Variant Human fighter",
+      "Kobold fighter (pack tactics!)",
+      "Feral Winged Tiefling Eldritch Knight",
+      "Beasthide Shifter Fighter",
+      "Longtooth Shifter Fighter",
+      "Warforged Fighter (maybe a grappling defender??)",
+      "Human Fighter with the Dragonmark of Making (Eldritch Knight)",
+      "Human Fighter with the Dragonmark of Passage (Dex-based Eldritch Knight)",
+      "Centaur Fighter",
+      "Minotaur Fighter (melee)",
+      "Simic Hybrid Fighter",
+      "Satyr Fighter (Purple Dragon Knight, or any Dex-based build)",
+      "Ravenite Dragonborn Fighter"
+   ],
+   
+   "rogue":[
+      "Aarakocra archer rogue",
+      "Custom Lineage rogue with +2 Dex, Darkvision, and a Dex-increasing feat",
+      "Eladrin Elf ranged rogue",
+      "High Elf melee rogue with Booming Blade and the Swashbuckler archetype",
+      "High Half-Elf rogue with Booming Blade",
+      "Standard Half-Elf rogue (extra skills; be the Face)",
+      "Variant Human rogue (melee build)",
+      "Kobold rogue with Pack Tactics",
+      "Tabaxi Rogue",
+      "Glasya Tiefling rogue",
+      "Winged Feral Tiefling rogue",
+      "Satyr rogue (but not an arcane trickster)"
+   ],
+   
+   "wizard":[
+      "Custom Lineage wizard (+2 int)",
+      "Githyanki Wizard",
+      "Forest Gnome wizard",
+      "Winged Tiefling wizard",
+      "Vedalken Wizard"
+   ],
+   
+   "clericbackgrounds":[
+      "grew up as an acolyte",
+      "serves as the agent of a faction",
+      "has been living as a hermit"],
    "clericweapon":["mace"],
+
    "clericdomain":["Forge","Light","Order","Twilight","Life"],
+   
    "heavydivinedomain":["Life","Forge","Order","Twilight"],
+   
    "fighterspecialty":["Dueling specialist wielding @duelingweapons","Archery specialist weilding @rangedfighterweapons"],
    "duelingweapons":[""],
    "rangedfighterweapons":[""],
